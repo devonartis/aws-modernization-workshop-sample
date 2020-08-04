@@ -33,5 +33,6 @@ Resources:
         AdditionalEKSAdminRoleArn: !GetAtt PipelineUser.Outputs.PipelineUserArn
         ProvisionBastionHost: Disabled
         EKSPublicAccessEndpoint: Enabled
+        QSS3BucketRegion: us-west-2
 
 Outputs: {}
